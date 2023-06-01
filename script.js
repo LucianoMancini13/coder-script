@@ -58,8 +58,22 @@ while (comida > "4" ) {
             "Vuelve a seleccionar tu comida \n1-medialunas\n2-sacramento\n3-galletitas\n4-solo la bebida"
         );
 }
+//Function constructora
 
-function compra(bebida, comida) {
+/*function Producto(id, nombre, precio){
+this.id = id;
+this.nombre = nombre;
+this.precio = precio;
+}
+
+//productos
+const producto1 = new Producto(1, "café",200);
+const producto2 = new Producto(2, "café con leche",220);
+const producto3 = new Producto(3, "té",150);
+const producto4 = new Producto(4, "chocolate",200);
+
+
+function pedido(bebida, comida) {
     if (comida < "4") {
         console.log("Vas a llevar " + bebida + " más " + comida);
     }
@@ -68,7 +82,7 @@ function compra(bebida, comida) {
     }
 }
 let pedido = bebida + comida
-console.log(compra)
+console.log(compra)*/
 
 
 
